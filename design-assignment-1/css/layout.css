@@ -1,3 +1,60 @@
+.header-container{
+    padding-left: 172px;
+    padding-right:168px;
+    overflow:auto;
+}
+
+.header-top{
+    line-height: 80px;
+    background-color: #76c7c1;
+    overflow: auto;
+    background-image: url(../images/header-bar.png);
+    background-position: right bottom;
+    background-repeat: repeat-x;
+}
+
+.header-top-left{
+    float: left;
+}
+.header-top-right{
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.header-top-right ul{
+    list-style: none;
+    float: right;
+}
+
+.header-top-right li{
+    float: left;
+    overflow: auto;
+}
+
+.header-top-right li a{
+    font-size: 14px;
+    color: #f7ffff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.header-top-right li a:active{
+    font-size: 14px;
+    background-image: url(../images/menu-active.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+.header-bottom{
+    line-height: 80px;
+    background-color: #ececec;
+    overflow: auto;
+}
+
+.header-bottom-left{
+    float: left;
+}
 
 .header-bottom-left h1
 {
