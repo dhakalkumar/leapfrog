@@ -145,6 +145,18 @@
 {
     color: #7b7b7b;
 }
+
+.middle-images{
+    margin-top: 62px;
+}
+
+.text-inside-image{
+    margin-top: -20px;
+    margin-left: 45px;
+}
+
+
+
 .text-bubble
 {
     width: 278px;

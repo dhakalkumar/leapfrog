@@ -3,9 +3,8 @@
     height: 71px;
 }
 .header-wrapper{
-    
-    margin: 0 auto;
-    width: 78%;  
+   margin: 0 auto;
+   width: 78%;  
    position: relative;
   
 }
@@ -276,8 +275,6 @@
     text-align: center;
     width: 100%;
     color:#7c8184;
-
-
 }
 .text-content p {
     padding-top: 11%;
