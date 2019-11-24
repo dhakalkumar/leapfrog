@@ -1,4 +1,14 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+img {
+    display: block;
 }
