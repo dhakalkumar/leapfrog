@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Image Carousel</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="main-container">    
+    <div id="image-carousel-wrapper">
+      <img src="./images/1.jpeg" id="image" alt="image 1">
+      <img src="./images/2.jpeg" id="image" alt="image 2">
+      <img src="./images/3.jpeg" id="image" alt="image 3">
+      <img src="./images/4.jpeg" id="image" alt="image 4">
+      <img src="./images/5.jpeg" id="image" alt="image 5">
+    </div>
+    <div>
+      <a class="previous" onclick="changeImage(-1)" href="#">&#10094;</a>
+    </div>
+    <div>
+      <a class="next" onclick="changeImage(1)" href="#">&#10095;</a>
+    </div>
+  </div>
+  <script src="script/script.js"></script>
+</body>
+
+</html>

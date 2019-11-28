@@ -1,0 +1,70 @@
+
+
+.main-container{
+    position: relative; 
+    box-sizing: border-box;
+    /* max-width: 800px; */
+    width: 800px;
+    /* align-content: center; */
+    overflow: hidden;
+    margin: auto;
+}
+
+/* .mySlides {
+    display: none; 
+} 
+*/
+.image-carousel-wrapper {
+    /*padding-top: 300px;*/
+    /* position: relative;*/
+    /* size: 3000px; */
+    overflow: hidden;
+    position: relative;
+    position: absolute;
+    width: 5000px;
+    float: left;
+    /* list-style: none; */
+}
+
+/* .image-carousel-wrapper {
+    /* position: relative;
+    float: left;
+    top: 0px; */
+    /* max-width: 100%; */
+    /* width: 20px; */
+    
+/* }  */
+
+
+img {
+    vertical-align: middle;
+}
+.previous {
+    background-color: aqua;
+    color: white;
+    padding: 8px 16px;
+    margin-top: 300px;
+   /* left: 0px;*/
+    position: absolute;
+    cursor: pointer;
+
+}
+
+.next {
+    background-color: aqua;
+    color: white;
+    padding: 8px 16px;
+    margin-top: 300px;
+    position: absolute;
+    cursor: pointer;
+    /* top: 50%; */
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    background-color: #aa0000;
+    /* color: red; */
+}
