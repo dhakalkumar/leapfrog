@@ -1,0 +1,12 @@
+.app {
+  height: 500px;
+  width: 800px;
+  background: white;
+  position: relative;
+  margin: auto;
+  border: 2px solid black;
+}
+
+.box {
+  position: absolute;
+}
