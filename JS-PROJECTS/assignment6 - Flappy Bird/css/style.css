@@ -1,0 +1,9 @@
+/* .start_box {
+    color: black;
+    font-size: 18px;
+} */
+
+canvas {
+    border: 2px solid black;
+    margin: 5% 20%;
+}
