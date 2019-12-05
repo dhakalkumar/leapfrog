@@ -1,0 +1,62 @@
+
+body {
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.game-container {
+    /* width: 70em; */
+    width: 700px;
+    margin: 0 auto;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.game-wrapper {
+    width: 75%;
+    /* float: left; */
+    overflow: hidden;
+}
+
+.gameWindow {
+    height: 700px;
+    width: 400px;
+    position: relative;
+    margin-left: 50%;
+    /* border: 2px solid black; */
+    /* background-repeat: repeat-y; */
+    overflow: hidden;
+    display: table;
+}
+
+.score-board {
+    font-size: 20px;
+    margin-left: 300px;
+    margin-top: 20px;
+    color: white;
+}
+
+#road {
+    background-image: url("../images/road.png");
+    background-repeat: repeat-y;
+    background-size: contain;
+    height: 650px;
+    /* height: 40em; */
+    margin-left: 300px;
+    position: relative;
+}
+
+#car {
+    background-image: url("../images/car.png");
+    /* background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute; */
+}
+
+#otherCars {
+    background-image: url("../images/car1.png");
+}
