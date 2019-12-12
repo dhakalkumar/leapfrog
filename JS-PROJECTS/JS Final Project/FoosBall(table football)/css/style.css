@@ -1,0 +1,29 @@
+canvas {
+    margin: 5em 8.5em;
+    border: 1px solid black;
+    /* background-image: url('../images/soccer-field.jpg'); */
+    background-repeat: no-repeat;
+}
+body {
+    background-image: url('../images/page-bg2.jpg');
+    background-repeat: repeat;
+}
+img {
+    display: none;
+}
+
+#logo {
+    /* align-content: center; */
+    /* margin: 20px 100px; */
+
+}
+.score {
+    float: right;
+    margin-right: 5em;
+    margin-top: 2em;
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+li {
+    list-style: none;    
+}

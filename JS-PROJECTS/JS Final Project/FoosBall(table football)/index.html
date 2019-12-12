@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>FoosBall Game by Kumar Dhakal</title>
+</head>
+
+<body>
+    <!-- <div id="logo"> -->
+    <img src="images/logo.png" id="logo" alt="Foosball logo">
+    <!-- </div> -->
+
+    <img src="./images/soccer-field.jpg" id="field">
+    <img src="./images/table7.png" id="table">
+    <img src="./images/ball1.png" id="ball">
+    <img src="./images/rod1.png" id="rod1">
+    <img src="./images/rod2.png" id="rod2">
+
+
+    <!-- <canvas id="mycanvas" width="600" height="350"> -->
+    <canvas id="mycanvas" width="600" height="500">
+        Your browser does not support the &lt;canvas&gt; tag. Please update your browser!
+    </canvas>
+    <div class="score">
+        <ul>
+            <li>Goals:</li>
+            <li>
+                Player 1 (CPU): <span class="p1Score">0</span>
+            </li>
+            <li>
+                Player 2 (Human):
+                <span class="p2Score">0</span>
+            </li>
+
+            </li>
+        </ul>
+    </div>
+
+    <script type="text/javascript" src="./scripts/ball.js"></script>
+    <script type="text/javascript" src="./scripts/table.js"></script>
+    <script type="text/javascript" src="./scripts/game.js"></script>
+    <script type="text/javascript" src="./scripts/players.js"></script>
+</body>
+
+</html>
